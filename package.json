@@ -1,6 +1,6 @@
 {
   "name": "orbweaver-progress",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "Orbweaver module for displaying UI Progress indicators around Resource Requests",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/aranasoft/orbweaver/issues"
   },
-  "homepage": "https://github.com/aranasoft/orbweaver"
+  "homepage": "https://github.com/aranasoft/orbweaver",
+  "dependencies": {
+    "orbweaver-resource": "^1.0.0"
+  }
 }
